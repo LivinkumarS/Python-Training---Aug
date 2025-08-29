@@ -1,0 +1,55 @@
+Python 
+------
+>> It is High-level, interpreted, general-pupose programming language,
+
+High-level--> It is very close to human language.
+interpreted--> Runs line by line, no need for compilation like c/c++.
+
+
+>> Very Simple Syntax --> looks like english.
+>> Huge community support.
+
+Extension for python file ---> .py
+
+Basic Python syntax 
+--------------------
+>> Every python program is written inside a .py file.
+>> to Execute a python code--> "python filename"
+>> case-sensitive.
+>> Indentation ---> space before a block of code. 
+>> No semicolon needed.
+
+To create comments
+---------------------
+To create a single line comment---> # as a prefix
+multi-line comment--> ''' your comment '''
+
+
+Datatypes
+----------
+Basic Datatypes:
+----------------
+Int-->
+Float-->
+
+String---> Collection of multiple characters are called String. we need to use either '' or "" to create a String.
+Ex: "Hello", "Hi", 'Hello world!'
+
+I'm from karur.
+I love the following quote "The qoute!"
+
+Boolean--->
+
+Variables
+------------
+>> Stores a single piece of data.
+varName=value
+
+
+To show something in the output
+-------------------------------
+print()
+
+To prompt input from user
+--------------------------
+input()---> it will always give string.
