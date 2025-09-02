@@ -81,3 +81,65 @@ str(val)  --> converts into string
 int(val)  --> converts into int
 float(val)  --> converts into float
 bool(val)  --> converts into boolean
+
+Operators
+----------
+>> a symbol that performs operations on a value.
+
+Arithmetic (numeric values)
+----------------------------
+Addition ---> +.
+Subtraction ---> -.
+Multiplication ---> *.
+Division ---> /.
+Floor ---> //  40//3-->13
+Mod ---> % --> Reminder. Ex:40%2-->0, 39%2-->1, 100%99-->1, 3%2-->1,2%3-->2.
+Exponentiate --> ** --> order. 2**2-> 2 power 2-->4
+
+BODMAS---> Brackets Order(of) Div Mul Add Sub.
+
+Comparison or Relational Operators (boolean)
+-----------------------------------
+== --> equal to
+!= --> not equal.
+> --> Greater than
+< --> Lesser than
+>= --> GT or equal
+<= --> LT or equal
+
+Logical Operator (combines two booleans)
+-----------------
+AND --> and --> True --> only when both conditions are True
+OR  --> or  --> True ---> when any one condition is True.
+NOT --> not --> inverts a boolean value.
+
+bool1  bool2   AND     OR
+True   True    True    True
+True   False   False   True
+False  True    False   True
+False  False   False   False
+
+Assignment Operator 
+--------------------
+= --> assign 
++= --> add and assign
+-= --> sun and assign
+*= --> mul and assign
+/= --> div and assign
+//= --> floor div assign
+%= --> mod and assign
+**= --> expo assign
+
+Bitwise
+--------
+(Works on binary representations)
+AND --> & --> performs and operation between two bits.--> 3 & 8
+OR ---> | --> performs or operation between two bits. 3 | 9
+
+not --> ~ --> ~12. not operation with bits. ~x=-(x+1)
+
+ex-or --> short circuit -->performs x-or operation between two bits. --> ^ --> 3 ^ 9
+
+left shift---> x<<y --> move the bits towards left for defined places. 10<<2
+
+right shift--> x>>y move the bits towards right for defined places. 10>>2
