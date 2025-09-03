@@ -143,3 +143,29 @@ ex-or --> short circuit -->performs x-or operation between two bits. --> ^ --> 3
 left shift---> x<<y --> move the bits towards left for defined places. 10<<2
 
 right shift--> x>>y move the bits towards right for defined places. 10>>2
+
+Controls Flow
+--------------
+Executes a block of code according  to the condition given.
+
+indentation:
+-------------
+>> python does not use {} to seperate block of code.
+>> So, indentation  (space) needed to seperate it
+
+syntax:
+--------
+if condition:
+    #block of code
+elif condition:
+    #block of code
+else:
+    #block of code
+
+Nested If
+-----------
+>> if block inside another.
+
+if con:
+    if con:
+        block of code
