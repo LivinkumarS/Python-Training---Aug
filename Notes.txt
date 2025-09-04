@@ -29,8 +29,8 @@ Datatypes
 ----------
 Basic Datatypes:
 ----------------
-Int-->
-Float-->
+Int--> Whole number --> -2,-1,1,0,1,2,3,4,5....
+Float--> decimal numbers  --> Ex: 1.10, 3.14...
 
 String---> Collection of multiple characters are called String. we need to use either '' or "" to create a String.
 Ex: "Hello", "Hi", 'Hello world!'
@@ -38,7 +38,9 @@ Ex: "Hello", "Hi", 'Hello world!'
 I'm from karur.
 I love the following quote "The qoute!"
 
-Boolean--->
+it is an Iteratable object. "Hello world" ---> using index number we can access each and every char in it.  
+
+Boolean--->True, False
 
 Variables
 ------------
@@ -169,3 +171,47 @@ Nested If
 if con:
     if con:
         block of code
+
+Loops
+-------
+>> It avoids repitition
+
+Types:
+------
+while loop:
+
+>> it keeps executes the block of code as long as the given condition is True.
+
+syntax:
+while condition:
+    block of code
+
+For loop:
+----------
+it is used to iterate an iteratable object
+syntax:
+--------
+for var in iterObj:
+    block of code
+
+range ---> it will create an iteratable object with defined lenght. 
+
+range(end) --> range(10) --> [0,1,2,3,4,5,6,7,8,9]
+range(start,end) --> range(5,10) --> [5,6,7,8,9]
+range(start, end, step) ---> range(0,11,2) -->[0,2,4,6,8,10]
+
+Control statement
+--------------------
+break ---> loop will be broken
+continue --> to skip the current iteration
+
+
+100
+
+0-100
+
+if div by 3
+if div by 5
+if it can be div by both.. "buzz"
+
+0,1,2,4,7,8,11,13,14,'buzz'.....98
