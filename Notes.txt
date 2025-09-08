@@ -83,6 +83,10 @@ str(val)  --> converts into string
 int(val)  --> converts into int
 float(val)  --> converts into float
 bool(val)  --> converts into boolean
+list()
+set()
+tuple()
+dict()
 
 Operators
 ----------
@@ -215,3 +219,69 @@ if div by 5
 if it can be div by both.. "buzz"
 
 0,1,2,4,7,8,11,13,14,'buzz'.....98
+
+Indexing and Slicing
+---------------------
+Indexing --> obj[ind] 
+Slicing--> obj[start:], obj[:end], obj[start:end]
+
+
+Datastructures 
+---------------
+List 
+----
+>> Mutable, allows duplicate, iterable.
+[] ---> to create a list.
+
+[1,2,3,"five",True]
+
+in built methods
+-----------------
+.append(val) -->  adds up value at end
+.insert(ind, val)--> adds an obj at specified index.
+.remove(value) --> removes specified value. first occur
+.pop() --> remove the last element
+.sort()--> to arrage elements in ascending order
+.reverse() --> to reverse the list
+.count(obj)---> to find number of occur. 0---> no occur 
+.index(obj) --> index number. error--> no occurance
+
+Tuple
+-----
+>> immutable, iterable, allows duplicate.
+>> ()
+>> faster than list.
+
+packing/unpacking
+------------------
+x,y,z=tuple
+
+Sets 
+-----
+>> {}. it allows only unique values.
+
+in built methods for it 
+--------------------------
+set1.union(set2) ---> union values
+set1.intersection(set2) ---> common values
+set1.difference(set2) ---> unique values
+
+dict 
+----
+{
+    key:value,
+    key:value,
+    key:value,
+    key:value,
+}
+
+mutable.
+
+in built methods 
+----------------
+.keys(),
+.values(),
+.items--> [(key1,val1),(key1,val2)]
+
+.pop()
+.clear()
