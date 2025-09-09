@@ -74,6 +74,34 @@ float --> decimal numbers --> 4.445, 5.0
 string -->sequence of characters. '' or "".
 concat--> attaching two strings.. str1+str2
 string formatting ---> f'{var1} {var2}..'
+iteratable datatype.
+
+String Operations 
+------------------
+concatination: +
+repetition: *
+Membership: in, not in
+
+in-built methods 
+----------------
+.upper() ---> convert into uppercase.
+.lower() ---> convert into lowercase.
+.title() ---> convert into titlecase.
+
+.isalpha()---> only alpha char
+.isdigit()---> only numeric char
+
+.find(sub) ---> return the Position of the substring in a string. -1 --> sub is not found
+.replace(sub1, sub2) --> to replace a substring.
+
+.split() --> to split a string and store it in a list.
+.join() --> to join the strings in a list.
+
+.strip() --> it removes spaces at begenning and end.
+
+Escape Char 
+------------
+
 
 bool ---> True or False
 
