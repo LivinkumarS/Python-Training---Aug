@@ -363,3 +363,18 @@ local scope ---> variables that are created inside a function.
 
 global scope ---> variables that are created outside a function.
 >> it can be accessed anywhere.
+
+Exception Handling
+-------------------
+>> Exception is an event that interrupts the normal flow of a program.
+
+try:
+    block of code 
+except ErrName:
+    handling block
+except ErrName:
+    handling block
+except ErrName:
+    handling block
+finally:
+    block of code
