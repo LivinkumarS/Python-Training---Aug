@@ -378,3 +378,25 @@ except ErrName:
     handling block
 finally:
     block of code
+
+File Handling 
+--------------
+To Open a file in python --> open(file_addr, '')
+
+relationship between file 
+--------------------------
+> Parent
+> Child 
+> Sibiling
+
+to read the content from a file --> read()
+to close a file ---> .close()
+
+to Over Write the content into a file---> .write()
+
+Modes:
+------
+'r' ---> Read
+'w' ---> Write
+'a' ---> Append
+
